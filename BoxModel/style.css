@@ -1,10 +1,14 @@
+body{
+    display: flex;
+    border: 1px solid black;
+}
 div{
     display:flex;
-    margin-top: 200px;
-    margin-left: 50%;
+    border: 1px solid red;
+    margin:100px 0 100px 50%;
 }
 
-h1{
+/* h1{
     border:1px solid black;
     padding: 30px;
-}
+} */
