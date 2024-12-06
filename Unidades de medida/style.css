@@ -1,0 +1,27 @@
+/* MEDIDAS ABSOLUTAS
+Son basicamente los px */
+
+/* MEDIDAS RELATIVAS
+% Porcentajes: Relativo a un elemento padre.
+
+em: Relativo al tamaño de letra del elemento
+    El em toma ocmo refrencia las medidas de texto de HTML que son 16px
+    El em va a variar en funcio si cambiamos el elemento padre */
+
+.padre{
+border: 3px solid black;
+width: 500px;
+height: 500px;
+}
+
+.hijo{
+border: 3px solid black;
+width: 300px;
+height: 300px;
+}
+
+.nieto{
+border: 3px solid black;
+width: 200px;
+height: 200px;
+}
