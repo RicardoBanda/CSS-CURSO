@@ -15,3 +15,18 @@ button:hover{
 button:active{
     background-color: yellowgreen;
 }
+
+#textoRojo:target{
+    color: red;
+}
+
+#textoAzul:target{
+    color: blue;
+}
+
+input:focus{
+    background-color: aqua;
+}
+
+/* Pseudo Elementos */
+
