@@ -30,3 +30,25 @@ input:focus{
 
 /* Pseudo Elementos */
 
+p::selection{
+    background-color: red;
+}
+
+p::first-letter{
+    border: 1px solid red;
+    color: brown;
+    background-color: aquamarine;
+    font-size: 50px;
+}
+
+p::first-line{
+    background-color: blueviolet;
+}
+
+p::before{
+    content: "Soy un texto previo";
+}
+
+p::after{
+    content: "soy el cierre de texto"
+}
