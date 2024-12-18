@@ -1,10 +1,42 @@
 body{
-    background-color: rgb(238, 136, 40);
+    background-color: #E0D582;
     width: 100%;
     height: 640px;
 }
 
 h1{
     font-size: 30px;
-    background-color: aquamarine;
+    background-color: #E0BD4F;
+    text-align: center;
+}
+
+h2{
+    background-color: #E0B261;
+}
+
+h3{
+background-color: #E0E04F;
+}
+main{
+    background-color:#E0D582;
+    text-align: center;
+}
+
+footer{
+    background-color: E0B26;
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+
+footer div{
+    background-color: #E0BD4F;
+    width: 100%;
+    height: 100%;
+    margin: 5%;
+}
+
+@media(main-widith:629){
+
 }
